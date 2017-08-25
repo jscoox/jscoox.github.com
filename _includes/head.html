@@ -1,34 +1,17 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="author" content="Alex Okros">
-    <title>{% if page.title %}{{ page.title }}{% else %}JS Cooks: JavaScript recipes for successful engineers{% endif %}</title>
+    <meta charset="UTF-8">
+    <meta content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <title>JS Cooks</title>
     <link href='//fonts.googleapis.com' rel='dns-prefetch'>
     <link href='//s.w.org' rel='dns-prefetch'>
+    <link href="feed/" rel="alternate" title="JS Cooks" type="application/rss+xml">
+
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700&#038;subset=latin' id='montserrat-css' media='all' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&#038;subset=latin' id='roboto-css' media='all' rel='stylesheet' type='text/css'>
-    <link media="all" rel="stylesheet" type="text/css" href="{{ "/-res/css/styles.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-    {% if page.title %}
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:image" content="{{ site.url }}/-res/img/logo_jcoox.svg">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@jscoox">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{{ site.url }}/img/logo_jcoox.svg">
-    {% endif %}
+    <link href='-res/css/styles.css' media='all' rel='stylesheet' type='text/css'>
 
-    <link href="logo_jcoox.svg" rel="icon" sizes="32x32">
-    <link href="logo_jcoox.svg" rel="icon" sizes="192x192">
-    <link href="logo_jcoox.svg" rel="apple-touch-icon-precomposed">
-    <meta content="logo_jcoox.svg" name="msapplication-TileImage">
+    <link href="-res/logo_jcoox.svg" rel="icon" sizes="32x32">
+    <link href="-res/logo_jcoox.svg" rel="icon" sizes="192x192">
+    <link href="-res/logo_jcoox.svg" rel="apple-touch-icon-precomposed">
+    <meta content="-res/logo_jcoox.svg" name="msapplication-TileImage">
 </head>
