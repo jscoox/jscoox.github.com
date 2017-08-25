@@ -1,1 +1,21 @@
+# website settings
+title: 'JS Cooks'
+email: hey@jscooks.com
+url: "https://www.jscooks.com"
+baseurl: ""
+description: Cook JavaScript, Angular, React and CSS
+include: [_pages]
+paginate_path: "/page:num/"
+permalink: /:year/:month/:title
 theme: jekyll-theme-slate
+
+# Gems
+gems: [jekyll-paginate]
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Social
+github_username:  jscoox
+twitter_username: jscoox
