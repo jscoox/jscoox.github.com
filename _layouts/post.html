@@ -1,9 +1,55 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="blog-single page-layout">
+    <div class="layout-fixed">
+        <article id="post-382" class="post type-post status-publish hentry">
+            <header class="entry-header">
+                <h1 class="entry-title">{{ page.title }}</h1>
 
-<div class="post">
-  {{ content }}
+                <div class="entry-meta">
+                    <div class="post-card__container">
+                        <div class="post-card__meta">
+                            <div class="post-card__tag">
+                                <img src="http://www.jscooks.com/-res/img/js.svg" alt="">
+                            </div>
+                            {{ page.date | date_to_string }}
+                        </div>
+
+                        <div class="post-card__meta">
+                            <div class="post-card__tag">
+                                <img src="http://www.jscooks.com/-res/img/clock.svg" alt="read time">
+                            </div>
+                            {% assign words = content | strip_html | number_of_words %}
+                            {% if words < 400 %}
+                            1 min read
+                            {% else %}
+                            {{ words | divided_by:200 }} min read
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="entry-content">
+                <div class="toc" markdown="1">
+                    <span class="gamma">Table of contents</span>
+                    {:.no_toc}
+                    * TOC
+                    {:toc}
+                </div>
+
+                {{ content }}
+            </div>
+
+        </article>
+    </div>
+
+    <div class="sharing-is-caring">
+        <h2>Like this post? Share it!</h2>
+        <p>Loads of time and care go into our articles and tutorials. We'd <3 if you'd share our work! </p>
+        <div class="addthis_inline_share_toolbox"></div>
+    </div>
+
+    {% include aside.html %}
 </div>
