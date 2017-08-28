@@ -2,6 +2,7 @@
 title: Test & toc
 author: JS Cooks
 layout: post
+date: 2017-08-28
 permalink: /test-and-toc/
 path: 2017-08-28-test-and-toc.md
 ---
