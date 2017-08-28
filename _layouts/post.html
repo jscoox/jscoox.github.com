@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  
+  {% include head.html %}
+  
+  <body>
+    
+    {% include header.html %}
+    
+    <div class="site" id="page">
+      
+      <div id="main" class="site-main">
+        
+        {% include filters.html %}
+        
+            {{ content }}
+        
+      </div>
+      
+    </div><!-- /.site -->
+    
+    {% include footer.html %}
+    
+  </body>
+</html>
