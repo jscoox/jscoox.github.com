@@ -17,6 +17,11 @@ path: 2017-08-29-ana-are-mere.md
   
 </div>
 
+- [Example](#example)
+  - [Example2](#example2)
+      - 2.1 [Another example](#another-example)
+  - [Third Example](#third-example)
+
 ## Example
 
 <p>Just once I’d like to eat dinner with a <a title="test link" href="#">celebrity</a> who isn’t bound and gagged. I am Singing Wind, Chief of the Martians. No, she’ll probably make me do it.</p>
