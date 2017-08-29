@@ -1,19 +1,19 @@
 ---
-title: Test & toc
+title: Ana are mere
 author: JS Cooks
 layout: post
 date: 2017-08-28
-permalink: /test-and-toc/
-path: 2017-08-28-test-and-toc.md
+permalink: /ana-are-mere/
+path: 2017-08-29-ana-are-mere.md
 ---
 
 <div class="toc">
   <p class="toc_h">Table of Contents</p>
   
-  1. [Example](#example)
-  2. [Example2](#example2)
-     2.1 [Another example](#another-example)
-  3. [Third Example](#third-example)
+  - [Example](#example)
+  - [Example2](#example2)
+      - 2.1 [Another example](#another-example)
+  - [Third Example](#third-example)
   
 </div>
 
