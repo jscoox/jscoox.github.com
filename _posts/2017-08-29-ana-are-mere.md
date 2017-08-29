@@ -7,7 +7,7 @@ permalink: /ana-are-mere/
 path: 2017-08-29-ana-are-mere.md
 ---
 
-<div class="toc">
+<span class="toc">
   <p class="toc_h">Table of Contents</p>
   
   - [Example](#example)
@@ -15,7 +15,7 @@ path: 2017-08-29-ana-are-mere.md
       - 2.1 [Another example](#another-example)
   - [Third Example](#third-example)
   
-</div>
+</span>
 
 - [Example](#example)
   - [Example2](#example2)
