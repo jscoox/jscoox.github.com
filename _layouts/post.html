@@ -11,14 +11,14 @@ layout: content
                     <div class="post-card__container">
                         <div class="post-card__meta">
                             <div class="post-card__tag">
-                                <img src="http://www.jscooks.com/-res/img/js.svg" alt="">
+                                <img src="https://www.jscooks.com/-res/img/js.svg" alt="">
                             </div>
                             {{ page.date | date_to_string }}
                         </div>
 
                         <div class="post-card__meta">
                             <div class="post-card__tag">
-                                <img src="http://www.jscooks.com/-res/img/clock.svg" alt="read time">
+                                <img src="https://www.jscooks.com/-res/img/clock.svg" alt="read time">
                             </div>
                             {% assign words = content | strip_html | number_of_words %}
                             {% if words < 400 %}
@@ -32,13 +32,6 @@ layout: content
             </header>
 
             <div class="entry-content">
-                <div class="toc" markdown="1">
-                    <span class="gamma">Table of contents</span>
-                    {:.no_toc}
-                    * TOC
-                    {:toc}
-                </div>
-
                 {{ content }}
             </div>
 
