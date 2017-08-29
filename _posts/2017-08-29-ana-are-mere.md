@@ -14,7 +14,6 @@ path: 2017-08-29-ana-are-mere.md
   - [Example2](#example2)
       - 2.1 [Another example](#another-example)
   - [Third Example](#third-example)
-  
 </span>
 
 - [Example](#example)
