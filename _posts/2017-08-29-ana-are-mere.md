@@ -5,6 +5,7 @@ layout: post
 date: 2017-08-28
 permalink: /ana-are-mere/
 path: 2017-08-29-ana-are-mere.md
+tag: js
 ---
 
 <div class="toc">
