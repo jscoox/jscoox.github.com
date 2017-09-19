@@ -7,6 +7,13 @@ permalink: /ana-are-mere/
 path: 2017-08-29-ana-are-mere.md
 ---
 
+<div class="toc" markdown="1">
+<span class="gamma">Table of contents</span>
+{:.no_toc}
+* TOC
+{:toc}
+</div>
+
 <span class="toc">
   <p class="toc_h">Table of Contents</p>
   
