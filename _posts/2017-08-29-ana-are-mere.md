@@ -7,26 +7,12 @@ permalink: /ana-are-mere/
 path: 2017-08-29-ana-are-mere.md
 ---
 
-<div class="toc" markdown="1">
-<span class="gamma">Table of contents</span>
+<div class="toc">
+<p class="toc_h">Table of Contents</p>
 {:.no_toc}
 * TOC
 {:toc}
 </div>
-
-<span class="toc">
-  <p class="toc_h">Table of Contents</p>
-  
-  - [Example](#example)
-  - [Example2](#example2)
-      - 2.1 [Another example](#another-example)
-  - [Third Example](#third-example)
-</span>
-
-- [Example](#example)
-  - [Example2](#example2)
-      - 2.1 [Another example](#another-example)
-  - [Third Example](#third-example)
 
 ## Example
 
