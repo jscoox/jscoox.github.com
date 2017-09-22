@@ -8,7 +8,7 @@ path: 2017-08-29-ana-are-mere.md
 tag: angular
 ---
 
-<div class="toc">
+<div class="toc" markdown="1">
 <p class="toc_h">Table of Contents</p>
 {:.no_toc}
 * TOC
