@@ -1,9 +1,9 @@
 <ul id="filters" class="filters">
-    <li class="current"><a href="#">All</a></li>
-    <li><a href="https://www.jscooks.com/"><img src="https://www.jscooks.com/-res/img/js.svg" alt="JS">JavaScript</a></li>
-    <li><a href="https://www.jscooks.com/filter/angular-js"><img src="https://www.jscooks.com/-res/img/angularjs.svg" alt="AngularJS">AngularJS</a></li>
-    <li><a href="https://www.jscooks.com/filter/angular"><img src="https://www.jscooks.com/-res/img/angular.svg" alt="Angular">Angular</a></li>
-    <li><a href="https://www.jscooks.com/filter/typescript"><img src="https://www.jscooks.com/-res/img/typescript.svg" alt="Typescript">Typescript</a></li>
-    <li><a href="https://www.jscooks.com/filter/rxjs"><img src="https://www.jscooks.com/-res/img/rxjs.svg" alt="RxJS">RxJS</a></li>
-    <li><a href="https://www.jscooks.com/filter/career"><img src="https://www.jscooks.com/-res/img/career.svg" class="career" alt="Career">Career</a></li>
+    <li><a href="#">All</a></li>
+    <li {% if page.tag == 'js' %}class="current"{% endif %}><a href="https://www.jscooks.com/"><img src="https://www.jscooks.com/-res/img/js.svg" alt="JS">JavaScript</a></li>
+    <li {% if page.tag == 'angularjs' %}class="current"{% endif %}><a href="https://www.jscooks.com/filter/angular-js"><img src="https://www.jscooks.com/-res/img/angularjs.svg" alt="AngularJS">AngularJS</a></li>
+    <li {% if page.tag == 'angular' %}class="current"{% endif %}><a href="https://www.jscooks.com/filter/angular"><img src="https://www.jscooks.com/-res/img/angular.svg" alt="Angular">Angular</a></li>
+    <li {% if page.tag == 'typescript' %}class="current"{% endif %}><a href="https://www.jscooks.com/filter/typescript"><img src="https://www.jscooks.com/-res/img/typescript.svg" alt="Typescript">Typescript</a></li>
+    <li {% if page.tag == 'rxjs' %}class="current"{% endif %}><a href="https://www.jscooks.com/filter/rxjs"><img src="https://www.jscooks.com/-res/img/rxjs.svg" alt="RxJS">RxJS</a></li>
+    <li {% if page.tag == 'career' %}class="current"{% endif %}><a href="https://www.jscooks.com/filter/career"><img src="https://www.jscooks.com/-res/img/career.svg" class="career" alt="Career">Career</a></li>
 </ul>
