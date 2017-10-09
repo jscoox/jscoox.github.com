@@ -1548,7 +1548,6 @@ textarea {
     /*padding:0 20px;margin:1em 0*/
 }
 .filters li {
-    display: inline-block;
     margin: .6em 1em
 }
 .filters li a {
@@ -2663,9 +2662,6 @@ a:hover {
     list-style: square;
     margin: 0 0 .5rem
 }
-.toc li li {
-    list-style: armenian;
-}
 .toc li a {
     font-weight: normal;
     border: 0;
@@ -2742,14 +2738,14 @@ a:hover {
     border: 0
 }
 .filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
     margin: 3rem 0 0;
     padding: 0
 }
 @media screen and (max-width: 849px) {
-    .filters li {
-        width: 11%;
-    }
     .courses {
         padding: 85px 64px 32px
     }
@@ -2804,7 +2800,6 @@ a:hover {
     .filters {
         position: relative;
         top: 1rem;
-        display: block;
         left: 0;
         z-index: 12;
         background: #1c262b;
