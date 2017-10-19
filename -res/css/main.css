@@ -1265,7 +1265,7 @@ code,
 pre {
     padding: 0 3px 2px;
     margin-bottom: 4em;
-    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    /*font-family: Monaco, Menlo, Consolas, "Courier New", monospace;*/
     color: #333;
     white-space: pre;
     overflow: auto
