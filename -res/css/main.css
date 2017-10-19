@@ -1247,7 +1247,7 @@ code,
 dt,
 pre,
 tr th {
-    font-size: 12px
+    font-size: 0.8rem;
 }
 tr th {
     padding: .8em 1em;
