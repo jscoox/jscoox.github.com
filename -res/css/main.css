@@ -2800,7 +2800,7 @@ a:hover {
     }
     .filters {
         position: fixed;
-        top: 1rem;
+        top: 0;
         left: 0;
         z-index: 12;
         background: #1c262b;
