@@ -93,11 +93,10 @@
             else
                 header.destroy();
 
-            if(CONST.window.innerWidth>849){
-                filters.init();
-            } else {
+            if(CONST.window.innerWidth<850){
                 filters.destroy();
-
+            } else {
+                filters.init();
             }
         }
     }
