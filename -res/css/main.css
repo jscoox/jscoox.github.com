@@ -1436,9 +1436,19 @@ textarea {
 .is-menu-toggled-on .menu-toggle {
     color: rgba(255, 255, 255, .8)
 }
+
+.is-menu-toggled-on .headroom{
+    will-change: unset;
+}
+.is-menu-toggled-on .headroom--pinned{
+    transform: none;
+}
 .menu-toggle:before {
-    content: "\e800";
-    font-size: 18px
+    content: "+";
+    font-size: 36px
+}
+.is-menu-toggled-on .menu-toggle:before {
+    content: "-";
 }
 .nav-menu ul {
     padding: 0;
