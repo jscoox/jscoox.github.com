@@ -28,7 +28,7 @@
         activateSearchFunction();
         mobileMenuSwitcher();
         enableHeadroom();
-        hideSearchAndFilters();
+        focusOnContent();
     };
 
 
@@ -72,33 +72,14 @@
         }
     };
 
-    function hideSearchAndFilters(){
+    function focusOnContent(){
         var filters = new Headroom(CONST.filters),
             search = new Headroom(CONST.stickySearch),
             header = new Headroom(CONST.header);
 
-        _enableBasedOnScreenSize();
-
-        $.event({
-            "onElement":CONST.window,
-            "event":"resize",
-            "callback":_enableBasedOnScreenSize
-        });
-
-        function _enableBasedOnScreenSize(){
-            search.init();
-
-            if(CONST.window.innerWidth<768)
-                header.init();
-            else
-                header.destroy();
-
-            if(CONST.window.innerWidth<850){
-                filters.destroy();
-            } else {
-                filters.init();
-            }
-        }
+        search.init();
+        header.init();
+        filters.init();
     }
 
     var $ = (function $(){
