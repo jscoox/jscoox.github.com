@@ -2,7 +2,7 @@
 title             : "jsCooks"
 title1            : "js"
 title2            : "Cooks"
-description       : Cook JavaScript, Angular and CSS
+description       : Cook JavaScript and CSS recipes
 url               : "https://www.jscooks.com"
 baseurl           : "" # apply repo name if use it under gh-pages branch
 repo              : https://github.com/jscoox/jscoox.github.com/
