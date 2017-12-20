@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="86da690e-c133-4d2c-b41e-7b71d35ab08c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +18,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2017-12-20-9-commandments-for-serious-devs.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-12-20-9-commandments-for-serious-devs.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-12-20-9-commandments-for-serious-devs.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="156" column="255" lean-forward="false" selection-start-line="156" selection-start-column="255" selection-end-line="156" selection-end-column="255" />
+            <state relative-caret-position="251">
+              <caret line="155" column="90" lean-forward="false" selection-start-line="155" selection-start-column="90" selection-end-line="155" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -36,21 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-12-30-markdown-cheatsheet-demo.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-12-30-markdown-cheatsheet-demo.md">
+      <file leaf-file-name="--2015-12-30-markdown-cheatsheet-demo.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/--2015-12-30-markdown-cheatsheet-demo.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1815">
               <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="asd.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/asd.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -75,6 +97,7 @@
       <find>*</find>
       <find>link</find>
       <find>*[</find>
+      <find>gentl</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;/a&gt;</replace>
@@ -92,6 +115,8 @@
         <option value="$PROJECT_DIR$/_posts/2017-12-20-9-commandments-for-serious-devs" />
         <option value="$PROJECT_DIR$/_posts/asd.html" />
         <option value="$PROJECT_DIR$/_posts/2017-12-20-9-commandments-for-serious-devs.md" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -182,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513763629630</updated>
-      <workItem from="1513763630857" duration="5977000" />
+      <workItem from="1513763630857" duration="6607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5977000" />
+    <option name="totallyTimeSpent" value="6607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="722" y="0" width="718" height="900" extended-state="0" />
@@ -238,7 +263,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-12-30-markdown-cheatsheet-demo.md">
+    <entry file="file://$PROJECT_DIR$/_posts/--2015-12-30-markdown-cheatsheet-demo.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1815">
           <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
@@ -256,8 +281,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-20-9-commandments-for-serious-devs.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="156" column="255" lean-forward="false" selection-start-line="156" selection-start-column="255" selection-end-line="156" selection-end-column="255" />
+        <state relative-caret-position="251">
+          <caret line="155" column="90" lean-forward="false" selection-start-line="155" selection-start-column="90" selection-end-line="155" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding />
         </state>
       </provider>
