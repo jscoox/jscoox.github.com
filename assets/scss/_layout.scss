@@ -1,0 +1,429 @@
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix {
+  &:before {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+  *zoom: 1;
+}
+
+body {
+  background-color: $base-background-color;
+}
+
+hr {
+  border-top: none;
+  border-bottom: 2px solid lighten($light-gray-color, 7%);
+  width: 100%;
+  margin: $small-spacing 0;
+}
+
+.container {
+  padding: $base-spacing;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  font-weight: normal;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.link {
+  color: $blue-color;
+  padding-bottom: .05em;
+  border-bottom: 2px solid transparent;
+
+  @include transition(border 300ms linear);
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-bottom: 2px solid $blue-color;
+  }
+}
+
+.site-header {
+  border-bottom: 1px solid lighten($light-gray-color, 5%);
+  margin-bottom: $small-spacing;
+  min-height: 80px;
+}
+
+.intro {
+  .author-name {
+    display: inline-block;
+    padding: 0 .2em;
+    background: lighten($light-gray-color, 15%)
+  }
+
+  a {
+    @extend .link;
+  }
+
+  .container {
+    padding-bottom: 0;
+  }
+}
+
+.logo {
+  float: left;
+  margin: 0 0 1em 0;
+  cursor: pointer;
+  letter-spacing: 0.8px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 50px;
+    margin: 0 .4rem 0 0;
+  }
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.nav {
+  min-height: 64px;
+}
+
+.navbar {
+  float: right;
+  margin: 12px 0 0;
+  position: relative;
+  padding: 0;
+  pointer-events: all;
+  cursor: pointer;
+
+  li {
+    display: inline-block;
+    padding: 0 .6em;
+  }
+
+  a {
+    @extend .link;
+  }
+}
+
+.post-list {
+
+}
+
+.category-title {
+  margin: 1em 0 0.5em 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.post-item {
+  margin-bottom: 0.2em;
+  display: block;
+
+  a {
+    color: $action-color;
+    font-weight: bold;
+  }
+
+  .article-title {
+    display: inline-block;
+    width: 85%;
+    //border-bottom: 1px dashed lighten($light-gray-color, 10%);
+  }
+
+  .date-label {
+    //border: 1px solid lighten($light-gray-color, 10%);
+    padding: 0 0.2em;
+    margin-left: 1em;
+    margin-top: 2px;
+    @extend .pull-right;
+  }
+
+}
+
+.post-meta {
+  color: $medium-gray-color;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: rem(14);
+  margin-bottom: 1px;
+}
+
+.post-title {
+  margin-top: 0;
+  margin-bottom: 2em;
+  color: $dark-gray-color;
+}
+
+.post-link,
+.post a,
+.page a {
+  @extend .link;
+}
+
+.post {
+  @extend .clearfix;
+}
+
+.pagination {
+  li, a, span {
+    display: inline-block;
+  }
+
+  a, span {
+    font-size: rem(12);
+    padding: .5em;
+  }
+
+  .prev, .next {
+    @extend .link;
+  }
+}
+
+.share {
+  border-top: 0.2em dashed lighten($light-gray-color, 13%);
+  padding-top: $base-spacing;
+  margin-top: $base-spacing * 2;
+
+  p {
+    margin: 0;
+    font-size: rem(14);
+    color: $medium-gray-color;
+  }
+}
+
+.disqus {
+  background-color: lighten($light-gray-color, 16%);
+  padding: $base-spacing 0;
+
+  hr {
+    margin: $base-spacing 0;
+  }
+}
+
+.site-footer {
+  @extend .clearfix;
+
+  padding: $base-spacing 0;
+
+  a {
+    @extend .link;
+  }
+
+  small {
+    display: block;
+    font-size: rem(12);
+    color: darken($medium-gray-color, 10%);
+  }
+
+  .block {
+    display: block;
+  }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.divider {
+  border-top: 0.2em solid lighten($light-gray-color, 13%);
+  margin-bottom: $base-spacing * 2;
+  margin-top: $base-spacing * 2;
+}
+
+// This applies from 0px to 600px
+@media (max-width: 600px) {
+  .date-label {
+    float: left !important;
+    border: 0 !important;
+    margin-left: -2px !important;
+    margin-top: 2px;
+    margin-right: 1em;
+  }
+
+  .post-item {
+    border: 1px solid lighten($light-gray-color, 10%);
+    padding: 0 0.5em;
+    background: lighten($light-gray-color, 15%);
+  }
+
+  .article-title {
+    border-bottom: none !important;
+  }
+
+  .post-link {
+    &:hover,
+    &:focus,
+    &:active {
+      border-bottom: 2px solid transparent;
+      color: $blue-color;
+    }
+  }
+}
+
+.masterchef {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 180px;
+  line-height: 1.5
+}
+
+.courses {
+  padding: 24px 64px 32px;
+  cursor: pointer;
+  color: #fff;
+  margin: 0 0 1rem;
+}
+
+.courses-1 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2da00+0,383202+50,000000+50,f2da00+100 */
+  background: #551254; /* Old browsers */
+
+  h4 {
+    a {
+      color: #00d8ff;
+    }
+  }
+
+  .spotlight-btn {
+    background: #026C7C;
+  }
+}
+
+.courses-2 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,d6084d+51,c90003+51,ce002c+100 */
+  background: #000; /* Old browsers */
+
+  h4 {
+    a {
+      color: #ffc107;
+    }
+  }
+
+  p {
+    a {
+      color: #fff;
+    }
+  }
+
+  .spotlight-btn {
+    background: #551254;
+  }
+}
+
+.courses-3 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,d6084d+51,c90003+51,ce002c+100 */
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #000000 0%, #d6084d 51%, #c90003 51%, #ce002c 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #000000 0%, #d6084d 51%, #c90003 51%, #ce002c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #000000 0%, #d6084d 51%, #c90003 51%, #ce002c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ce002c', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#76008e', endColorstr='#ff0190', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+  .masterchef {
+    text-transform: capitalize;
+  }
+
+  h4, p {
+    a {
+      color: #fff;
+    }
+  }
+
+  .spotlight-btn {
+    background: #000;
+  }
+}
+
+.courses--top *,
+.courses--bottom * {
+  color: #fff;
+  margin: 0
+}
+
+.courses__item {
+
+  &:hover {
+    border-bottom: 0;
+  }
+
+  display: flex;
+  align-items: left;
+  text-decoration: none;
+
+  > .courses__logo {
+    margin: 0 .4rem 0 0;
+  }
+}
+
+.page .spotlight-btn {
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.4rem .5rem;
+  border-radius: 2px;
+}
+
+.courses--top h4,
+.courses--bottom h4 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  color: #7dcfdc;
+}
+
+.page .courses__white-a {
+  color: #fff;
+}
+
+.page .courses--top a,
+.page .courses--bottom a,
+.page .courses__white-a {
+  border: 0
+}
