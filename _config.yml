@@ -1,21 +1,42 @@
-# website settings
-title: 'JS Cooks'
-email: hey@jscooks.com
-url: "https://www.jscooks.com"
-baseurl: ""
-description: Cook JavaScript, Angular, React and CSS
-include: [_pages]
-paginate_path: "/page:num/"
-permalink: /:year/:month/:title
-theme: jekyll-theme-slate
-
-# Gems
-gems: [jekyll-paginate]
+# SEO settings
+title             : "jsCooks"
+title1            : "js"
+title2            : "Cooks"
+description       : Cook JavaScript, Angular and CSS
+url               : "https://www.jscooks.com"
+baseurl           : "" # apply repo name if use it under gh-pages branch
+repo              : https://github.com/jscoox/jscoox.github.com/
+twitter_username  : "jscoox"
+comments          : false
+paginate_path   : "/page:num/"
 
 # Build settings
-markdown: kramdown
-highlighter: rouge
+permalink     : /:year/:month/:title
+markdown    : kramdown
+highlighter : rouge
 
-# Social
-github_username:  jscoox
-twitter_username: jscoox
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+  # Social
+  github_username   :  jscoox
+  twitter_username  : jscoox
+  twitter_site      : "@jscoox"
+
+plugins:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

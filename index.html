@@ -1,41 +1,25 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <title>JS Cooks</title>
-    <link href='//fonts.googleapis.com' rel='dns-prefetch'>
-    <link href='//s.w.org' rel='dns-prefetch'>
-    <link href="feed/" rel="alternate" title="JS Cooks" type="application/rss+xml">
+---
+layout: default
+title: Home
+---
 
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700&#038;subset=latin' id='montserrat-css' media='all' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&#038;subset=latin' id='roboto-css' media='all' rel='stylesheet' type='text/css'>
-    <link href='./-res/css/styles.css' media='all' rel='stylesheet' type='text/css'>
+<section class="post-list">
+  <div class="container">
+    {% for post in site.posts %}
+      {% unless post.next %}
+        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+        {% endif %}
+      {% endunless %}
+      <article class="post-item">
+        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+      </article>
+    {% endfor %}
+  </div>
 
-    <link href="./-res/logo_jcoox.svg" rel="icon" sizes="32x32">
-    <link href="./-res/logo_jcoox.svg" rel="icon" sizes="192x192">
-    <link href="./-res/logo_jcoox.svg" rel="apple-touch-icon-precomposed">
-    <meta content="./-res/logo_jcoox.svg" name="msapplication-TileImage">
-</head>
-<body>
-<div class="site" id="page">
-    <header class="header" id="masthead" role="banner">
-        <a class="menu-toggle toggle-link" id="menu-toggle"></a>
-        <h1 class="site-title mobile-title"><a href="index.html">JS COOKS</a></h1>
-    </header>
-
-    <div id="main" class="site-main">
-        <div class="content">
-            <div class="layout-medium">
-                <img alt="JS Cooks" width="150" src="./-res/logo_jcoox.svg" class="logo">
-                <h1 class="page-title">Coming Soon</h1>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--[if lt IE 9]>
-<script src="./-res/js/ie.js"></script>
-<![endif]-->
-<script src='./-res/js/bundle.js' type='text/javascript'></script>
-</body>
-</html>
+</section>
