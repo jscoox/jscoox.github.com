@@ -55,7 +55,7 @@ hr {
 }
 
 .link {
-  color: $blue-color;
+  color: $jscooks-color;
   padding-bottom: .05em;
   border-bottom: 2px solid transparent;
 
@@ -64,14 +64,15 @@ hr {
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 2px solid $blue-color;
+    border-bottom: 2px solid $jscooks-color;
   }
 }
 
 .site-header {
-  border-bottom: 1px solid lighten($light-gray-color, 5%);
-  margin-bottom: $small-spacing;
+  //border-bottom: 1px solid lighten($light-gray-color, 5%);
+  //margin-bottom: $small-spacing;
   min-height: 80px;
+  @include jscooks-gradient;
 }
 
 .intro {
@@ -106,6 +107,10 @@ hr {
     margin: 0 .4rem 0 0;
   }
 
+  a{
+    color: $white-color;
+  }
+
   span {
     font-weight: 700;
   }
@@ -130,6 +135,7 @@ hr {
 
   a {
     @extend .link;
+    color: $white-color;
   }
 }
 
@@ -211,7 +217,7 @@ hr {
 }
 
 .share {
-  border-top: 0.2em dashed lighten($light-gray-color, 13%);
+  border-top: 0.2em dashed $dark-gray-color;
   padding-top: $base-spacing;
   margin-top: $base-spacing * 2;
 
@@ -300,7 +306,7 @@ hr {
     &:focus,
     &:active {
       border-bottom: 2px solid transparent;
-      color: $blue-color;
+      color: $jscooks-color;
     }
   }
 }
@@ -357,14 +363,6 @@ hr {
 }
 
 .courses-3 {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,d6084d+51,c90003+51,ce002c+100 */
-  background: #000000; /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #000000 0%, #d6084d 51%, #c90003 51%, #ce002c 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #000000 0%, #d6084d 51%, #c90003 51%, #ce002c 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #000000 0%, #d6084d 51%, #c90003 51%, #ce002c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ce002c', GradientType=1); /* IE6-9 fallback on horizontal gradient */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#76008e', endColorstr='#ff0190', GradientType=1); /* IE6-9 fallback on horizontal gradient */
-
   .masterchef {
     text-transform: capitalize;
   }
@@ -378,6 +376,8 @@ hr {
   .spotlight-btn {
     background: #000;
   }
+
+  @include jscooks-gradient
 }
 
 .courses--top *,

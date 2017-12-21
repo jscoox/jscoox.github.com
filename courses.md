@@ -21,7 +21,7 @@ permalink: /courses/
 
     <div class="courses courses--top courses-2">
         <a href="#" target="_blank" class="courses__item">
-            <img width="75" class="courses__logo" src="../-res/img/splotlight.svg" alt="">
+            <img width="75" class="courses__logo" src="../-res/img/logo_jcoox.svg" alt="">
             <h3 class="masterchef">Witch Doctor (functional JS)</h3>
         </a>
 
