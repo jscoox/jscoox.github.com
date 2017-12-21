@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86da690e-c133-4d2c-b41e-7b71d35ab08c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-12-30-markdown-cheatsheet-demo.md" afterPath="$PROJECT_DIR$/_posts/--2015-12-30-markdown-cheatsheet-demo.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_layout.scss" afterPath="$PROJECT_DIR$/assets/scss/_layout.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="219" column="43" lean-forward="false" selection-start-line="219" selection-start-column="43" selection-end-line="219" selection-end-column="43" />
+            <state relative-caret-position="250">
+              <caret line="297" column="3" lean-forward="true" selection-start-line="297" selection-start-column="3" selection-end-line="297" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -88,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="115" lean-forward="false" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,7 +143,6 @@
       <find>.post-link</find>
       <find>.post a</find>
       <find>.post-item a</find>
-      <find>.post-item</find>
       <find>hover</find>
       <find>monospace</find>
       <find>.share</find>
@@ -159,6 +157,7 @@
       <find>na</find>
       <find>kd</find>
       <find>s1</find>
+      <find>.post-item</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;/a&gt;</replace>
@@ -193,12 +192,12 @@
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/courses.md" />
         <option value="$PROJECT_DIR$/-res/img/logo_jcoox.svg" />
-        <option value="$PROJECT_DIR$/assets/scss/_layout.scss" />
         <option value="$PROJECT_DIR$/assets/scss/jscooks.scss" />
         <option value="$PROJECT_DIR$/assets/scss/base/_typography.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_syntax-highlighting.scss" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/assets/scss/_layout.scss" />
       </list>
     </option>
   </component>
@@ -338,12 +337,12 @@
       <option name="presentableId" value="Default" />
       <updated>1513763629630</updated>
       <workItem from="1513763630857" duration="6766000" />
-      <workItem from="1513845728974" duration="4642000" />
+      <workItem from="1513845728974" duration="4922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11408000" />
+    <option name="totallyTimeSpent" value="11688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -532,14 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="219" column="43" lean-forward="false" selection-start-line="219" selection-start-column="43" selection-end-line="219" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/jscooks.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -582,8 +573,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="115" lean-forward="false" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="297" column="3" lean-forward="true" selection-start-line="297" selection-start-column="3" selection-end-line="297" selection-end-column="3" />
           <folding />
         </state>
       </provider>
