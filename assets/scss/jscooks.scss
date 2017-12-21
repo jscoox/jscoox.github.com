@@ -1,0 +1,13 @@
+@mixin jscooks-gradient{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$black-color+0,d6084d+71,c90003+71,ce002c+100 */
+  background: $black-color; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, $black-color 0%, $jscooks-gradient-color-1 71%, $jscooks-gradient-color-2 71%, #ce002c 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, $black-color 0%, $jscooks-gradient-color-1 71%, $jscooks-gradient-color-2 71%, #ce002c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, $black-color 0%, $jscooks-gradient-color-1 71%, $jscooks-gradient-color-2 71%, #ce002c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000', endColorstr='#571254', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#76008e', endColorstr='#ff0190', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+}
+
+.fa:before{
+  color: $jscooks-color;
+}

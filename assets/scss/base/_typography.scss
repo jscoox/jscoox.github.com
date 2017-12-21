@@ -80,19 +80,19 @@ blockquote {
   margin: $base-spacing 0;
   color: $dark-gray-color;
   line-height: 1.8;
-  border-left: $small-spacing solid $light-gray-color;
-  background-color: lighten($light-gray-color, 15%)
+  border-left: $small-spacing solid $dark-gray-color;
+  //background-color: $dark-gray-color
 }
 
 code {
   background: none;
-  border-radius: 0;
+  border-radius: 3px;
   border: none;
   font-family: monospace;
   font-size: 1em;
   margin: 0;
-  padding: 0 5px;
-  background-color: lighten($light-gray-color, 13%);
+  padding: 3px;
+  //border: 1px solid lighten($light-gray-color, 13%);
 }
 
 pre {
@@ -104,7 +104,7 @@ pre {
   overflow: auto;
   max-height: 60em;
   white-space: pre;
-  border: 1px solid $light-gray-color;
+  //border: 1px solid $dark-gray-color;
 
   code {
     line-height: 1.75em;
