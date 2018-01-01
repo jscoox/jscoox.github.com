@@ -10,6 +10,8 @@ twitter_username  : "jscoox"
 comments          : false
 paginate_path   : "/page:num/"
 
+google_analytics : UA-75818050-1
+
 # Build settings
 permalink     : /:year/:month/:title
 markdown    : kramdown
