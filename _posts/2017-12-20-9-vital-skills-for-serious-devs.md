@@ -3,7 +3,7 @@ layout: post
 title: "9 vital skills for serious js engineers"
 description: "How to become a js engineer"
 comments: true
-keywords: "dummy content, lorem ipsum"
+keywords: "javascript, engineers, javascript engineers, frontend developer"
 ---
 
 You already have experience with JS and we don’t need to talk about basics like syntax or what loops are, right? Great! Let’s start.
