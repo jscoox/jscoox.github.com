@@ -1,5 +1,5 @@
 // Typography
-$base-font-family: consolas, monaco, courier, "courier new", fixed-width;
+$base-font-family: 'Source Code Pro', monospace; //consolas, monaco, courier, "courier new", fixed-width;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -23,7 +23,7 @@ $jscooks-gradient-color-2: #551254;
 $primary-color: $jscooks-color;
 $action-color: $primary-color;
 $white-color: #fff;
-$background-color: #292929;
+$background-color: #3a4250;//#292929;
 $black-color: #000;
 $blue-color: #0086B3;
 $dark-gray-color: #d3d3d3;
@@ -48,4 +48,3 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
-
