@@ -29,7 +29,9 @@ permalink: /courses/
 
         <p><a href="#">Upgrade to functional JS</a></p>
 
-        <a href="javascript:;" class="spotlight-btn spotlight_btn">Let's go!</a>
+        Early 2018
+
+        <!-- <a href="javascript:;" class="spotlight-btn spotlight_btn">Let's go!</a> -->
     </div>
 
     <div class="courses courses--top courses-3">
@@ -42,6 +44,8 @@ permalink: /courses/
 
         <p><a href="#">Contemplate from your JS master hut, after you've taken this course</a></p>
 
-        <a href="javascript:;" class="spotlight-btn spotlight_btn">Let's go!</a>
+        Late 2018
+
+        <!-- <a href="javascript:;" class="spotlight-btn spotlight_btn">Let's go!</a> -->
     </div>
 </div>
