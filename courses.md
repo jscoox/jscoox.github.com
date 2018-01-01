@@ -29,7 +29,7 @@ permalink: /courses/
 
         <p><a href="#">Upgrade to functional JS</a></p>
 
-        Early 2018
+        <p>Coming Early 2018</p>
 
         <!-- <a href="javascript:;" class="spotlight-btn spotlight_btn">Let's go!</a> -->
     </div>
@@ -44,7 +44,7 @@ permalink: /courses/
 
         <p><a href="#">Contemplate from your JS master hut, after you've taken this course</a></p>
 
-        Late 2018
+        <p>Coming Late 2018</p>
 
         <!-- <a href="javascript:;" class="spotlight-btn spotlight_btn">Let's go!</a> -->
     </div>
