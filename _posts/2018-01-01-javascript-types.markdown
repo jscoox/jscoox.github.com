@@ -7,20 +7,22 @@ category: "berserker"
 keywords: "javascript, berserker, frontend developer"
 ---
 
-<em>This is a lesson from our <a>JS Berserker Course</a></em>
+<div class="highlight-text">This is a lesson from our <a href="{{ site.baseurl }}{% link berserker.md %}">JS Berserker Course</a></div>
 
 The first topic of this course is JavaScript types. JS is known to be an <u>UNtyped</u> language. Or if you're more benevolent towards it, you might call it a weakly typed language.
 
 Well, I say that's a false statement.
 
 The EcmaScript spec clearly states that the language has the following types:
-	- undefined
-	- string
-	- number
-	- boolean
-	- object
-	- function
-	- null
+- undefined
+- string
+- number
+- boolean
+- object
+- function
+- null
+
+<div class="divider"></div>
 
 With this in mind, there are differences between them. If you use the string 10 versus the number 10 in your code, your intentions are quite different in each of the case, because a string and a number have different behaviors and outcomes.
 
@@ -30,15 +32,19 @@ That's somewhat hard, if not impossible, to write code that at some point doesn'
 
 My assuption is that every language should have a method of conversion from one type to another.
 
+<div class="divider"></div>
+
 So this idea that JavaScript shouldn't coerce types is somewhat invalid, from my perspective. There are two ways you can coerce stuff in JavaScript:
-	- explicit
-	- and implicit
+- explicit
+- and implicit
 
 Once you understand the concepts behind these words, you'll get to make your own decisions about how to call them. Explicit coercion means that you, the coder, is the one who's deciding upon the coercion. Whereas the implicit coercion is the one where the engine decides for you.
 
 We'll cover these coercion types in later lectures but now I want you to think of the last two types that JavaScript has:
-	- the function and
-	- the null
+- the function and
+- the null
+
+<div class="divider"></div>
 
 If you think about it, function is a special value that you can work with. Back in the day I thought that function was in itself a type of JavaScript. Especially when I used the typeof operator with a function. I would get back the word "function".
 
@@ -49,6 +55,8 @@ You can add properties and methods to them and manipulate them in the same way t
 So functions are unofficially a sub-type of the object type.
 
 What about the null type? Let's analyze the difference between null and undefined.
+
+<div class="divider"></div>
 
 EcmaScript says something like "undefined is an empty value, while null is the empty OBJECT value." That's the reason why these two are different. And it sounds like a load of BS to me and it may sound the same to you, because it doesn't make much sense, especially if you're coming from other languages. Null doesn't behave like an object at all.
 

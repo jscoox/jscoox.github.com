@@ -28,8 +28,8 @@ You already have experience with JS and we don’t need to talk about basics lik
 It includes:
 
 - [DOM](asd)
-- [coercion](asd) (so overlooked)
-- [scope](asd)
+- [coercion]({% post_url 2018-01-01-javascript-types %}) (so overlooked)
+- [scope]()
 - [closures]()
 - [hoisting]()
 - [prototypal]() (this is how JavaScript does OOP)
