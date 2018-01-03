@@ -12,7 +12,7 @@ keywords: "javascript, berserker, frontend developer"
 </div>
 
 <div class="highlight-text">
-  <a href="{{ site.baseurl }}{% link berserker.md %}">&lt; Prev: JS Berserker Course</a>
+  <a href="{{ site.baseurl }}{% link 2018-01-01-javascript-types.markdown %}">&lt; Prev: Javascript types</a>
 </div>
 
 Say you call typeof against the following:
@@ -73,5 +73,5 @@ This is one of those many bugs in the language. So what happens? Why does no one
 Judging from that, at least there's a consensus that there'd be one specification for every browser, otherwise we'd have what CSS has: vendor specific prefixes. Which, if you ask me, without a preprocessor plugin, sucks big time. But that's a different can of worms and we don't want to get into that.
 
 <div class="highlight-text">
-  <a href="{{ site.baseurl }}{% link berserker.md %}">&lt; Prev: JS Berserker Course</a>
+  <a href="{{ site.baseurl }}{% link 2018-01-01-javascript-types.markdown %}">&lt; Prev: Javascript types</a>
 </div>
