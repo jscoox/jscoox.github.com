@@ -75,5 +75,5 @@ What I'd recommend is that you treat them the same. Pick either one of them and 
 There are some exceptions to this rule that I presented, where undefined is different than null, like in ES6, where there are default paramaters on functions. But from a practical perspective I think it's better to treat them as being the same.
 
 <div class="highlight-text">
-  <a href="{{ site.baseurl }}{% link 2018-01-03-javascript-typeof-operator.markdown %}">Next &gt;: Js Typeof Operator</a>
+  <a href="{{ site.baseurl }}{% link 2018-01-03-javascript-typeof-operator.markdown %}">Next lecture &gt;: Js Typeof Operator</a>
 </div>
