@@ -7,7 +7,11 @@ category: "berserker"
 keywords: "javascript, berserker, frontend developer"
 ---
 
-<div class="highlight-text">This is a lesson from our <a href="{{ site.baseurl }}{% link berserker.md %}">JS Berserker Course</a></div>
+<div class="highlight-text">
+  This is a lesson from our <a href="{{ site.baseurl }}{% link berserker.md %}">JS Berserker Course</a>
+</div>
+
+
 
 The first topic of this course is JavaScript types. JS is known to be an <u>UNtyped</u> language. Or if you're more benevolent towards it, you might call it a weakly typed language.
 
@@ -69,3 +73,7 @@ Nowadays, though, I don't think there needs to be a difference, a real useful di
 What I'd recommend is that you treat them the same. Pick either one of them and stick with it. Don't worry about the other one. If, on the other hand, you find yourself in a special situation, use coercion properly, as you'll see in the next lectures. If you do that, there should be no issues whatsoever.
 
 There are some exceptions to this rule that I presented, where undefined is different than null, like in ES6, where there are default paramaters on functions. But from a practical perspective I think it's better to treat them as being the same.
+
+<div class="highlight-text">
+  <a href="{{ site.baseurl }}{% link berserker.md %}">Next &gt;: Js Typeof Operator</a>
+</div>
