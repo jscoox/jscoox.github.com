@@ -18,3 +18,16 @@
   width: 100%;
   margin: 0 0 1rem;
 }
+
+.to-fro-posts{
+  display: flex;
+
+  a{
+    font-size: .9rem;
+    width: 50%;
+
+    &:nth-child(2){
+      text-align: right;
+    }
+  }
+}

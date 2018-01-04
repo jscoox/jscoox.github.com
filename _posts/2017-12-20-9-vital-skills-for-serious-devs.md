@@ -27,24 +27,24 @@ You already have experience with JS and we don’t need to talk about basics lik
 ## 1. Become a JS berserker
 It includes:
 
-- [DOM](asd)
+- [DOM](javascript:;)
 - [coercion]({% post_url 2018-01-01-javascript-types %}) (so overlooked)
-- [scope]()
-- [closures]()
-- [hoisting]()
-- [prototypal]() (this is how JavaScript does OOP)
-- [proficient functions usage]() (IIFEs, hoisting, first-class etc.)
-- async code: everything from <a href="#">callbacks and promises</a>, to the <a>event loop</a>, to newer stuff like <a>async-await</a> and <a>RxJS</a>.
+- [scope](javascript:;)
+- [closures](javascript:;)
+- [hoisting](javascript:;)
+- [prototypal](javascript:;) (this is how JavaScript does OOP)
+- [proficient functions usage](javascript:;) (IIFEs, hoisting, first-class etc.)
+- async code: everything from <a href="javascript:;">callbacks and promises</a>, to the <a href="javascript:;">event loop</a>, to newer stuff like <a href="javascript:;">async-await</a> and <a href="javascript:;">RxJS</a>.
 
 Before jQuery[[^1]], React, Bower[[^2]], Node, TypeScript and so on, master JavaScript first. The tools come after [[^3]]. Why?
 
 Because if you don’t learn JavaScript, you’ll be staring at those libraries and tools like a peon would at the base of Mount Hyjal: overwhelmed.
 
-Not to mention that the language has boomed in terms of development, both at its core, as well as in ecosystems and tools. You can already <a href="link catre articol electron">code desktop apps in JavaScript</a>, so don’t be surprised.
+Not to mention that the language has boomed in terms of development, both at its core, as well as in ecosystems and tools. You can already <a href="javascript:;"><!-- <a href="link catre articol electron"> -->code desktop apps in JavaScript</a>, so don’t be surprised.
 
 All in all, you’ll come to need those tools and libraries, but until that, master JavaScript first.
 
-As with most things, practice makes perfect. Doesn’t matter how much theory you’ve got under your belt, if you ain’t got the chops of actual practice. So what are you waiting for, <a href="link curs">master javascript</a> already!
+As with most things, practice makes perfect. Doesn’t matter how much theory you’ve got under your belt, if you ain’t got the chops of actual practice. So what are you waiting for, <a href="{{ site.baseurl }}{% link berserker.md %}">master javascript</a> already!
 
 <div class="divider"></div>
 
