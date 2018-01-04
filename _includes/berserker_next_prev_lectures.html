@@ -18,10 +18,10 @@
 <div class="highlight-text">
   <div class="to-fro-posts">
     {% if prev_post %}
-        <a href="{{ prev_post }}">&lt; {{ prev_post_title }}</a>
+        <a class="prev" href="{{ prev_post }}">&lt; {{ prev_post_title }}</a>
     {% endif %}
     {% if next_post %}
-        <a href="{{ next_post }}">{{ next_post_title }} &gt;</a>
+        <a class="next" href="{{ next_post }}">{{ next_post_title }} &gt;</a>
     {% endif %}
   </div>
 </div>

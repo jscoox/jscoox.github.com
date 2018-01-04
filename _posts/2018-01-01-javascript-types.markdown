@@ -41,8 +41,8 @@ So this idea that JavaScript shouldn't coerce types is somewhat invalid, from my
 Once you understand the concepts behind these words, you'll get to make your own decisions about how to call them. Explicit coercion means that you, the coder, is the one who's deciding upon the coercion. Whereas the implicit coercion is the one where the engine decides for you.
 
 We'll cover these coercion types in later lectures but now I want you to think of the last two types that JavaScript has:
-- the ```function``` and
-- the ```null```
+- ```function```
+- and ```null```
 
 <div class="divider"></div>
 

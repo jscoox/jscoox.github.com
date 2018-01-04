@@ -20,15 +20,25 @@
 }
 
 .to-fro-posts{
-  display: flex;
 
   a{
     font-size: .9rem;
     width: 50%;
 
-    &:nth-child(2){
+    &.prev{
+      float: left;
+    }
+
+    &.next{
+      float: right;
       text-align: right;
     }
+  }
+
+  &:after{
+    display: block;
+    clear: both;
+    content: '';
   }
 }
 
