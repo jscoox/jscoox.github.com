@@ -6,7 +6,6 @@ description       : Cook JavaScript and CSS recipes
 url               : "https://www.jscooks.com"
 baseurl           : "" # apply repo name if use it under gh-pages branch
 repo              : https://github.com/jscoox/jscoox.github.com/
-twitter_username  : "jscoox"
 comments          : false
 paginate_path   : "/page:num/"
 
@@ -26,9 +25,9 @@ sass:
   style: compressed # expanded
 
   # Social
-  github_username   :  jscoox
-  twitter_username  : jscoox
-  twitter_site      : "@jscoox"
+  github_username   :  artanthos
+  twitter_username  : rubedzal
+  twitter_site      : "@rubedzal"
 
 plugins:
   - bourbon
