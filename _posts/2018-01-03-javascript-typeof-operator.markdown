@@ -28,7 +28,7 @@ Whenever you call it against a data type, you get a string back. One of these si
 - ```object```
 - ```function```
 
-That's all the types that come back when you use the typeof operator. Those six and another one that's been added to ES6, the symbol type.
+That's all you get back back when you use the typeof operator. Those six and another one that's been added to ES6, the symbol type.
 
 Look at line 1. When you use ```typeof``` with a variable that's not declared, you'll see that you get ```undefined```, when actually you should think of it as "undeclared". It's all semantics. Because it's confusing. Many folks believe that undefined and undeclared are the same things, but at a semantic level, they are two very different things.
 
