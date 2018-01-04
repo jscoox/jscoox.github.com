@@ -26,11 +26,11 @@ The EcmaScript spec clearly states that the language has the following types:
 
 With this in mind, there are differences between them. If you use the string 10 versus the number 10 in your code, your intentions are quite different in each of the case, because a string and a number have different behaviors and outcomes.
 
-On the other hand, one of the many confusions developers suffer from, when it comes to type coercion, is they believe that the language shouldn't have any kind of coercion at all.
+On the other hand, one of many confusions developers suffer from, when it comes to type coercion, is they believe that the language shouldn't have any kind of coercion at all.
 
 That's somewhat hard, if not impossible, to write code that at some point doesn't convert from one type to the desired type.
 
-My assuption is that every language should have a method of conversion from one type to another.
+My assuption is that every language should have a method of conversion from one type to the next.
 
 <div class="divider"></div>
 
