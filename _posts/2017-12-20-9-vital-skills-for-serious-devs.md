@@ -148,7 +148,7 @@ So stay in the loop. Don’t rush into thinking “I’ve got this.”
 
 
 
-[^1]: 1: Learn jQuery only for <a href="link_catre_clip_gratis_din_curs">understanding the DOM</a>. Don’t invest too much time, though, as jQuery is <a href="https://www.reddit.com/r/javascript/comments/3hq3o0/is_jquery_dying/" target="_blank">slowly dying</a>
+[^1]: 1: Learn jQuery only for <a href="javascript:;">understanding the DOM</a>. Don’t invest too much time, though, as jQuery is <a href="https://www.reddit.com/r/javascript/comments/3hq3o0/is_jquery_dying/" target="_blank">slowly dying</a>
 [^2]: 2: Lol, <a href="https://github.com/bower/bower.github.io/issues/288">Bower is slowly dying</a> too
 [^3]: 3: Because what you’re using today, you may end up dropping tomorrow; read on to find out more
 [^4]: 4: Jumanji-man! Ever heard of Chrome?
