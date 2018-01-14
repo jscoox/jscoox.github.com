@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,500,700,900|PT+Serif:400,700" rel="stylesheet">
+
+  <style>
+    *{box-sizing: border-box;}
+    html{font-family: 'PT Serif', serif;font-size: 1.3rem;color:black}
+    body.nightmode{color:silver;background:black;}
+    .toggle,.print{display:block;cursor:pointer;position:fixed;right:0;top:5rem;width:3rem;height:3rem;line-height:3rem;}
+    .print{top:10rem;text-align:center;}
+    .toggle:before{display:block; text-align: center;content:'Aa';}
+    body:not(.nightmode) .toggle:before,body:not(.nightmode) .print{background:black;color:silver}
+    body:not(.nightmode) .print a{color:silver;display:block;width:100%;height:100%}
+    .nightmode .toggle:before{background:silver;color:black;}
+    .nightmode .print{background:silver;color:black;}
+    .nightmode .print a{color:black;}
+    .nightmode .print a:hover{color:cadetblue;}
+    h1,h2,h3,h4,h5,h6{font-family: 'Fira Sans Extra Condensed', sans-serif;font-weight:500;text-align:left;margin: 0 0 .5em;line-height:1.2}
+    h1{font-weight:700;text-align: center;margin:1rem 0 0}
+		h1+h2{text-align: center;font-size: 1rem}
+    h3>span{font-size:.6em;vertical-align: middle}
+    h3 a{color:cadetblue;text-decoration:none;border-bottom:1px dashed}
+    header ul{display: flex;flex-dire: row;flex-wrap: wrap;justify-content: center;}
+    header ul li{list-style: none;margin:0 1em 0 0;}
+    header ul li a{color:cadetblue;}
+    section{margin:2rem auto;max-width:30rem;}
+    section:first-of-type h2{text-align:center;margin:3rem 0 1rem}
+    section:first-of-type ul{display:flex;flex-direction:row;flex-wrap:wrap;justify-content: center;margin:0 0 1rem;padding:0;}
+    section:first-of-type li{list-style:none;margin:0 1em .5rem 0;text-align:center;}
+    section:first-of-type span{display:block;text-align:center;width:3em;height:3em;line-height:2.5em;margin:0 auto;border:.3em solid;border-radius:3em;font-weight:700;font-family:'Fira Sans Extra Condensed', sans-serif;font-size:1.2em;}
+    section article{margin:1rem 0 2rem;}
+    @media print{
+      body.nightmode{color:black;background:transparent;}
+      .toggle,.print{visibility:hidden;}
+    }
+	</style>
+
+  <title>Alex Okros</title>
+</head>
+
+<body>
+  <header>
+    <h1>Alexandru Okros</h1>
+    <h2>0720 360 892 | București, România</h2>
+    <ul>
+      <li><a href="https://github.com/artanthos?tab=repositories">Github</a></li>
+      <li><a href="https://twitter.com/rubedzal">Twitter</a></li>
+      <li><a href="https://www.jscooks.com/courses/">Website</a></li>
+    </ul>
+    <span class="toggle"></span>
+    <span class="print"><a href="javascript:window.print()">Print</a></span>
+  </header>
+
+  <main>
+    <section>
+      <h2>Quick info</h2>
+      <ul>
+        <li><span>8+</span> years as webdev</li>
+        <li><span>B.A</span> in computer science</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Working <br /> Knowledge</h2>
+      <p>Web developer with 8+ years of experience.</p>
+      <p>Developed platforms from middle to large sized projects, back-end &amp; front-end wise, with the help of:</p>
+      <ul>
+        <li>JavaScript OOP</li>
+        <li>AngularJS</li>
+        <li>PHP OOP</li>
+        <li>WordPress</li>
+        <li>Adobe Photoshop</li>
+      </ul>
+      <h3>Tools of the trade</h3>
+      <ul>
+        <li>MacOS / Ubuntu</li>
+        <li>WebStorm editor</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Work <br /> Experience</h2>
+      <article>
+        <h3>AdsWizz (8 months) <span><a rel="nofollow" target="_blank" href="http://www.adswizz.com/">visit company website</a></span></h3>
+        <h4>UI developer | jul 2017 - PRESENT</h4>
+        <p>Build &amp; maintain web components for the company's in-house products</p>
+      </article>
+
+      <article>
+        <h3>Grafitti BBDO - Kaleidoscope Proximity (~4 years) <span><a rel="nofollow" target="_blank" href="http://kaleidoscopeproximity.ro/">visit company website</a></span></h3>
+        <h4>Front end developer for ad agency | nov 2013 - jul 2017</h4>
+        <p>Focused on helping art &amp; dev teams with UI development for medium to large scale CMS websites &amp; client-side web-apps for:</p>
+		 <ul>
+			<li>Mercedes-Benz</li>
+			<li>ING</li>
+			<li>BAYER</li>
+			<li>BAT</li>
+		 </ul>
+      </article>
+
+	  <article>
+        <h3>Leo Burnett - Digital Star (9 months) <span><a rel="nofollow" target="_blank" href="http://digitalstar.ro/">visit company website</a></span></h3>
+        <h4>Web developer for ad agency | feb 2013 - oct 2013</h4>
+        <p>Assigned to maintaining existing projects and developing new projects for in-house clients:</p>
+		 <ul>
+			<li>Samsung</li>
+			<li>Lenovo</li>
+			<li>BitDefender</li>
+		 </ul>
+      </article>
+
+	  <article>
+        <h3>Bakers Digital (19 months)</h3>
+        <h4>Web developer for ad agency | jul 2011 - jan 2013</h4>
+        <p>Assigned to maintaining existing projects and developing new projects for in-house clients:</p>
+		 <ul>
+			<li>Telekom (ex-Cosmote)</li>
+		 </ul>
+      </article>
+
+    </section>
+
+    <section>
+      <h2>Education</h2>
+	  <article>
+        <h3>Teacher @ JS Cooks  | personal website <span><a rel="nofollow" target="_blank" href="https://www.jscooks.com/courses/">visit website</a></span></h3>
+        <p>JS Cooks is where I teach JavaScript &amp; the front-end career to people</p>
+      </article>
+
+      <article>
+        <h3>RAU - Univ. Româno-Americană  | București, România, 2008 promotion</h3>
+        <p>Bachelor's degree in computer science</p>
+      </article>
+
+      <article>
+        <h3>Cambridge English CAE | 2005 British Council promotion</h3>
+        <p>Advanced English speaking / writing Certifcation</p>
+      </article>
+
+    </section>
+  </main>
+
+  <script>
+    var body = document.querySelector('body'),
+        toggle = document.querySelector('.toggle');
+
+    toggle.onclick = function(){body.classList.toggle('nightmode');}; // this enables your night mode functionality
+    toggle.click(); // comment this out if you don't want the night mode theme enabled by default
+  </script>
+</body>
+</html>

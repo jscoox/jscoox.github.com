@@ -11,6 +11,7 @@ permalink: /about/
     <div class="socials">
       <a href="https://www.linkedin.com/in/alexandru-okros-b68182100/" target="_blank"><i class="fa fa-linkedin"></i></a>
       <a href="https://twitter.com/rubedzal" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.jscooks.com/alex-okros.html" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
     </div>
   </div>
 
