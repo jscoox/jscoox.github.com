@@ -28,7 +28,7 @@ You already have experience with JS and we don’t need to talk about basics lik
 It includes:
 
 - [DOM](javascript:;)
-- [coercion]({% post_url 2018-01-01-javascript-types %}) (so overlooked)
+- [coercion]({% post_url 2018-01-01-coercion-01-javascript-types %}) (so overlooked)
 - [scope](javascript:;)
 - [closures](javascript:;)
 - [hoisting](javascript:;)
