@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quiz 2 - Javascript Types"
+title: "Coercion - 05 - Quiz 2 - Javascript Types"
 description: "JS Berserker Course"
 comments: true
 category: "berserker"

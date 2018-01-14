@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NaN, Null and Undefined"
+title: "Coercion - 04 - NaN, Null and Undefined"
 description: "JS Berserker Course"
 comments: true
 category: "berserker"

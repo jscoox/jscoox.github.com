@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Javascript Typeof Operator"
+title: "Coercion - 02 - Javascript Typeof Operator"
 description: "Javascript Typeof Operator"
 comments: true
 category: "berserker"
