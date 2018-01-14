@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="abt">
   <div class="left">
-    <img src="{{site_url}}/-res/img/12810475.jpg" />
+    <img src="{{site_url}}/-res/img/profile_picture.jpg" />
 
     <div class="socials">
       <a href="https://www.linkedin.com/in/alexandru-okros-b68182100/" target="_blank"><i class="fa fa-linkedin"></i></a>
