@@ -9,7 +9,6 @@ keywords: "javascript, berserker, frontend developer"
 
 {% include berserker_notice.html %}
 
-
 We've talked about coercing strings and numbers, let's see what happens when you want to coerce something to a boolean. Here's where we discuss one of the special cases where you might trick yourself into a trap, thinking that something's happening but it's not. Let's shed some light and force some types into booleans.
 
 ```javascript
