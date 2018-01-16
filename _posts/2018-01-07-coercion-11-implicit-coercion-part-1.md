@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coercion - 11 - Implicit Coercion part 1"
+title: "Coercion - 11 Implicit Coercion part 1"
 description: "JS Berserker Course"
 comments: true
 category: "berserker"
@@ -60,7 +60,7 @@ You might say "it doesn't feel good," or "I don't quite get why you'd do that" a
 
 Again, with time, it will pass. Just give these two, the subtraction and division operators, a chance. Oh, yeah, and the same happens with line 15, because the empty string coerces to 0.
 
-Yes, I know, the empty string should've coerced into something else entirely, like a NaN or somehting. But... TC39 ```¯\_(ツ)_/¯```
+Yes, I know, the empty string should've coerced into something else entirely, like a NaN or somehting. But... TC39 ```¯\_(ツ)_/¯```[[^1]]
 
 Now let's tackle the last lines of code, where we'll talk about coercing from numbers to strings. As you've probably seen by now, the example from line 12 doesn't have any secrets to you anymore. If you haven't or you don't quite understand how it works, here's the jest of it: if the assignment operator sees that one of the following two parameters is a string, it just coerces the number parameter (in our case the ```houses``` variable) into a string and then it attaches the following parameter, which is a string (in our case, an empty string), therefore resulting into an overall string of ```"4"```.
 
@@ -68,4 +68,8 @@ Why is that? Well, it's because unlike other programming languages, like, say, P
 
 <blockquote>So, when the compiler sees that you're placing the + sign between two numbers, it will do addition, the math operation. But when it sees that one or more parameters are strings, it will do concatenation.</blockquote>
 
-I'm still in the camp of those who say that JavaScript should've had different operators for these two very separate things, but as with all the other miscreants nested deep into the language, ```¯\_(ツ)_/¯```, there's nothing to be done anymore.
+I'm still in the camp of those who say that JavaScript should've had different operators for these two very separate things, but as with all the other miscreants nested deep into the language, ```¯\_(ツ)_/¯```[[^1]], there's nothing to be done anymore.
+
+<div class="divider"></div>
+
+[^1]:```¯\_(ツ)_/¯``` represents nihilism, “bemused resignation,” and “a Zen-like tool to accept the chaos of universe.” It is Sisyphus in unicode.

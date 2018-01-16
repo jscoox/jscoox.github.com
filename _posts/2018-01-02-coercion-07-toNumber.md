@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coercion - 07 - toNumber"
+title: "Coercion - 07 toNumber"
 description: "JS Berserker Course"
 comments: true
 category: "berserker"

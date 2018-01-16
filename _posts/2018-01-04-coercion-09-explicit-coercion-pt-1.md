@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coercion - 09 - Explicit Coercion part 1"
+title: "Coercion - 09 Explicit Coercion part 1"
 description: "JS Berserker Course"
 comments: true
 category: "berserker"
