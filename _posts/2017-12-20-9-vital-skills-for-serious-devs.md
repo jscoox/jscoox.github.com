@@ -29,7 +29,7 @@ It includes:
 
 - [DOM](javascript:;)
 - [coercion]({% post_url 2018-01-01-coercion-01-javascript-types %}) (so overlooked)
-- [scope](javascript:;)
+- [scope]({% post_url 2018-01-14-scope-01-assignment-operation %})
 - [closures](javascript:;)
 - [hoisting](javascript:;)
 - [prototypal](javascript:;) (this is how JavaScript does OOP)
