@@ -7,6 +7,8 @@ category: "berserker"
 keywords: "javascript, berserker, frontend developer"
 ---
 
+{% include berserker_notice.html %}
+
 NaN
 ---------------------------
 
