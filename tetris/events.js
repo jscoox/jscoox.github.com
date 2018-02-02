@@ -10,17 +10,11 @@ document.addEventListener('keydown', event => {
       case 37 : event.preventDefault(); movePiece(-1); break;
       case 39 : event.preventDefault(); movePiece(1); break;
       case 40 : event.preventDefault(); dropPiece(); break;
-      // case 80 : game.isPaused = !game.isPaused; console.log(game.isPaused); break; // r
+      case 80 : togglePause(); break; // r
       case 38 : event.preventDefault(); rotateEvent(-1); break; // up
       case 83 : event.preventDefault(); toggleMusicPlayer(); break; // s
-      // case 84 : rotateEvent(-1); break; // t
     }
 });
-// document.addEventListener('keyup', event => {
-//     if(!game.isPaused){
-//       cancelAnimationFrame(game.requestAF);
-//     }
-// });
 
 function generateRandomLetter(){
   let pieceMatrix,
@@ -115,6 +109,18 @@ function toggleMusicPlayer(){
     audioElement.play();
   } else {
     audioElement.pause();
+  }
+}
+
+function togglePause(){
+  game.isPaused = !game.isPaused;
+  if(game.isPaused) {
+    cancelAnimationFrame(game.requestAF);
+    game.requestAF = null;
+  } else {
+    if (!game.requestAF) {
+      init();
+    }
   }
 }
 

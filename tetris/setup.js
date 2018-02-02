@@ -22,6 +22,17 @@ let game = {
     pos: {x: 0, y: 0},
     requestAF: null,
     score: 0,
+    speed: {
+      easy: 1,
+      medium: 1.2,
+      hard: 1.5,
+      nightmare: 1.7,
+      hell: 2
+    },
+    user: {
+      name: undefined,
+      score: undefined
+    },
 };
 
 const piecesColors = [
