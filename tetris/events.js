@@ -5,7 +5,16 @@ import {score, updateScore} from './score.js';
 nextPiece();
 
 document.addEventListener('keydown', event => {
-    detectKey(event.keyCode);
+    switch(event.keyCode){
+      case 32 : event.preventDefault(); nextPiece(); break;
+      case 37 : event.preventDefault(); movePiece(-1); break;
+      case 39 : event.preventDefault(); movePiece(1); break;
+      case 40 : event.preventDefault(); dropPiece(); break;
+      // case 80 : game.isPaused = !game.isPaused; console.log(game.isPaused); break; // r
+      case 38 : event.preventDefault(); rotateEvent(-1); break; // up
+      case 83 : event.preventDefault(); toggleMusicPlayer(); break; // s
+      // case 84 : rotateEvent(-1); break; // t
+    }
 });
 // document.addEventListener('keyup', event => {
 //     if(!game.isPaused){
@@ -41,18 +50,6 @@ function nextPiece() {
         game.score = 0;
         updateScore();
     }
-}
-
-function detectKey(code){
-  switch(code){
-    case 32 : nextPiece(); break;
-    case 37 : movePiece(-1); break;
-    case 39 : movePiece(1); break;
-    case 40 : dropPiece(); break;
-    // case 80 : game.isPaused = !game.isPaused; console.log(game.isPaused); break; // r
-    case 82 : rotateEvent(1); break; // r
-    case 84 : rotateEvent(-1); break; // t
-  }
 }
 
 function dropPiece() {
@@ -110,6 +107,15 @@ function rotateEvent(direction) {
             return;
         }
     }
+}
+
+function toggleMusicPlayer(){
+  let audioElement = document.getElementsByTagName('audio')[0];
+  if(audioElement.paused){
+    audioElement.play();
+  } else {
+    audioElement.pause();
+  }
 }
 
 function rotatePiece(matrix, dir) {

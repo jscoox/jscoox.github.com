@@ -12,7 +12,7 @@ canvas.restraints = {
 canvas.scale(30, 30);
 
 let game = {
-    board: getBoardMatrix(12, 20),
+    board: getBoardMatrix(12, 19),
     dropCounter : 0,
     dropInterval : 1000,
     isPaused: false,
