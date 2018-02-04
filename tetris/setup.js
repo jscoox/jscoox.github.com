@@ -15,9 +15,9 @@ let game = {
     board: getBoardMatrix(12, 19),
     dropCounter : 0,
     gears: {
-      easy: {speed: 1000, maxScore: 1000, display: 'lvl: 1'},
-      medium: {speed: 500, maxScore: 2200, display: 'lvl: 2'},
-      hard: {speed: 300, maxScore: 3500, display: 'lvl: 3'},
+      easy: {speed: 1000, maxScore: 500, display: 'lvl: 1'},
+      medium: {speed: 500, maxScore: 1500, display: 'lvl: 2'},
+      hard: {speed: 300, maxScore: 3200, display: 'lvl: 3'},
       nightmare: {speed: 100, maxScore: 7000, display: 'lvl: 4'},
       hell: {speed: 50, maxScore: null, display: 'lvl: 5'},
     },
