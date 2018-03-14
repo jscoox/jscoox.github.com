@@ -1,4 +1,4 @@
-import {piecesMatrix, piecesColors, game} from './setup.js'
+import {piecesMatrix, piecesColors, game, $} from './setup.js'
 import {init} from './init.js';
 import {score, updateScore} from './score.js';
 
@@ -43,6 +43,7 @@ function nextPiece() {
     if (hasCollided()) {
         game.board.forEach(row => row.fill(0));
         game.score = 0;
+        saveScore();
         updateScore();
     }
 }
@@ -81,16 +82,6 @@ function movePiece(offset) {
     }
 }
 
-function storePiecesInBoardMatrix() {
-    game.currentPieceMatrix.forEach((row, y) => {
-        row.forEach((value, x) => {
-            if (value !== 0) {
-                game.board[y + game.pos.y][x + game.pos.x] = value;
-            }
-        });
-    });
-}
-
 function rotateEvent(direction) {
     const pos = game.pos.x;
     let offset = 1;
@@ -104,6 +95,65 @@ function rotateEvent(direction) {
             return;
         }
     }
+}
+
+function storePiecesInBoardMatrix() {
+    game.currentPieceMatrix.forEach((row, y) => {
+        row.forEach((value, x) => {
+            if (value !== 0) {
+                game.board[y + game.pos.y][x + game.pos.x] = value;
+            }
+        });
+    });
+}
+
+function saveScore(){
+  $.get('highscore.json').then(_parse);
+
+  function _parse(jsonAnswer){
+    let highscores = JSON.parse(jsonAnswer),
+        _isUsernameExisting = highscores.filter(function(item){
+            return ~item.name.toLowerCase().indexOf(game.user) ? true : false;
+        });;
+
+    if(!(highscores.length > 9 && _isScoreTopTenWorthy(jsonAnswer))){
+      if(_isUsernameExisting){
+        alert("Username already exists");
+      } else {
+        alert("Your score is too low. Try again.");
+        return;
+      }
+    }
+
+    _saveToObject();
+    _sortObject();
+    _saveToJSON();
+  }
+
+  function _isScoreTopTenWorthy(json){
+
+  }
+
+  function _isUsernameExisting(){
+
+  }
+
+  function _saveToJSON(){
+    // save to json logic
+  }
+
+  function _saveToObject(){
+    highscores.push({
+      "name" : game.user,
+      "score" : game.score
+    });
+  }
+
+  function _sortObject(){
+    highscores.sort(function (a, b) {
+      return b.score - a.score;
+    });
+  }
 }
 
 function toggleMusicPlayer(){

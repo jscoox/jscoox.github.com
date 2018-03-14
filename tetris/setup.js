@@ -29,10 +29,26 @@ let game = {
     requestAF: null,
     score: 0,
     speed : 1000,
-    user: {
-      name: undefined,
-      score: undefined
-    },
+    user: null,
+};
+
+let $ = {
+  get: function get(url){
+      return $._xhr({
+          "method":"GET",
+          "url":url
+      });
+  },
+
+  _xhr: function _xhr(data){
+      return new Promise((resolve, reject) => {
+          const xhr = new XMLHttpRequest();
+      		xhr.open(data.method, data.url);
+      		xhr.onload = () => resolve(xhr.responseText);
+      		xhr.onerror = () => reject(xhr.statusText);
+      		xhr.send();
+      	});
+  },
 };
 
 const piecesColors = [
@@ -98,4 +114,4 @@ function getBoardMatrix(w, h) {
     return matrix;
 }
 
-export {piecesMatrix, piecesColors, game, canvas};
+export {piecesMatrix, piecesColors, game, canvas, $};
