@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Matrix</title>
+  <style>
+    #matrixDiv{
+      display: flex;
+      flex-wrap:wrap;
+      padding: .5rem;
+      border: 10px dotted #000;
+    }
+
+    .cell{
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+      user-select: none;
+      cursor: pointer;
+      display: inline-block;
+      background:rgb(140, 157, 195);
+      color: #fff;
+      font-size:1.5rem;
+      text-align: center;
+      margin:10px 0 0 10px;
+      flex-grow: 1;
+      height:100px;
+      line-height: 100px;
+      font-weight: bold;
+    }
+
+    .cell-selected{
+      background:rgb(35, 213, 85);
+    }
+  </style>
+</head>
+<body onload="render()">
+  <h1>Selection matrix</h1>
+  <h2>Click and drag</h2>
+  <h3>inside the dotted line</h3>
+  <script src="script.js"></script>
+</body>
+</html>
