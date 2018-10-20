@@ -16,7 +16,7 @@ const config = {
     slotImage() {
 
         let slotImage = new Image();
-        slotImage.src = "../img/fruits.png";
+        slotImage.src = "https://jscoox.github.io/slot-machine/img/fruits.png";
         return slotImage;
 
     },
