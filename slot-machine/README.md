@@ -1,5 +1,13 @@
 # js-game-slot-machine
-ES6 module based slot machine, with results fetched from an API -- or in this case, a JSON file
+
+Canvas ES6 module based slot machine, with results fetched from an API -- or in this case, a JSON file
+
+NOTE: There are only 3 possible combinations, given the list of possible JSONS that are fetched:
+- answer1.json
+- answer2.json
+- answer3.json
+
+For a realtime interaction, with different outcomes, a backend environment -- like Node with express -- is necessary.
 
 ## General guidelines
 
